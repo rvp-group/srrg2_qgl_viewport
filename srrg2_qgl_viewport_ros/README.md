@@ -10,9 +10,9 @@ All our software is tested both with Ubuntu 18.04 and 16.04 (GCC 5 and 7), still
 
 1. create a Catkin workspace
 2. clone and build the packages
-[`srrg2_core`](https://github.com/srrg-sapienza/srrg2_core/srrg2_core),
-[`srrg2_core_ros`](https://github.com/srrg-sapienza/srrg2_core/srrg2_core_ros)
-[`srrg2_qgl_viewport`](https://github.com/srrg-sapienza/srrg2_qgl_viewport/srrg2_qgl_viewport)
+[`srrg2_core`](https://github.com/srrg-sapienza/srrg2_core/tree/master/srrg2_core),
+[`srrg2_core_ros`](https://github.com/srrg-sapienza/srrg2_core/tree/master/srrg2_core_ros)
+[`srrg2_qgl_viewport`](https://github.com/srrg-sapienza/srrg2_qgl_viewport/tree/master/srrg2_qgl_viewport)
 3. build this package using Catkin
 ```bash
 cd <your_catkin_ws>
