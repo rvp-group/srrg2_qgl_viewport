@@ -21,5 +21,5 @@ catkin build srrg2_qgl_viewport
 ```
 
 ## How to use
-A full example that shows how this viewing system should be used can be found in the executable [test_viewer_core_multicanvas](src/tests/test_viewer_core_multicanvas).
+A full example that shows how this viewing system should be used can be found in the executable [test_viewer_core_multicanvas](src/tests/test_viewer_core_multicanvas.cpp).
 All the other tests provide examples on the low-level infrastructure of the system.

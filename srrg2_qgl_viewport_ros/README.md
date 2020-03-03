@@ -24,7 +24,7 @@ In this design there are 2 different processes that should work together: a `ser
 The `server` represents the SLAM process, that could run on a cheap system (e.g. on the robot); the `client` process instead should run on a powerful machine that supports OpenGL rendering.
 
 Therefore as example of usage we refer to:
-* [`test_viewer_core_server`](src/tests/test_viewer_core_server) for the server process
-* [`srrg_viewer_ros_client`](src/app/srrg_viewer_ros_client) for the client process.
+* [`test_viewer_core_server`](src/tests/test_viewer_core_server.cpp) for the server process
+* [`srrg_viewer_ros_client`](src/app/srrg_viewer_ros_client.cpp) for the client process.
 
 Note that **no other client process should be coded**, since our `srrg_viewer_ros_client` app can be used with every `server` process. If you want to spawn multiple rendering viewport, just run another instance of the `srrg_viewer_ros_client` app :).
