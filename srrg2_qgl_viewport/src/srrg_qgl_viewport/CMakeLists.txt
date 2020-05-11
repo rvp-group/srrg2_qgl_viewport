@@ -7,7 +7,7 @@ add_library(srrg2_qgl_viewport_library SHARED
 )
 
 target_link_libraries(srrg2_qgl_viewport_library
-  srrg2_viewer_core_library
+  srrg2_viewer_library
   ${SRRG_QT_LIBRARIES}
   ${GLUT_LIBRARIES}
   ${QGLViewer_LIBRARIES}
