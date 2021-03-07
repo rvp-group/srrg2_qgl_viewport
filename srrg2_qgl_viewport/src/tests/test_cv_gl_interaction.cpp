@@ -55,7 +55,7 @@ void processFn(const srrg2_core::ViewerCanvasPtr gl_canvas_) {
   PointNormalColor3fVectorCloud cloud;
   cloud.resize(num_points);
 
-  cv::Mat cv_canvas(cv::imread(rgb_image_filename, CV_LOAD_IMAGE_COLOR));
+  cv::Mat cv_canvas(cv::imread(rgb_image_filename/* tg non compila con gcc 9.3, CV_LOAD_IMAGE_COLOR*/));
 
   bool time_expired = false;
   double t_delta    = 0;
